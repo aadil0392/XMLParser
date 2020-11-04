@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ghrEmployment.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: SkyBlue;" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="submit" layoutX="217.0" layoutY="159.0" mnemonicParsing="false" onAction="#selectFileFromLocal" style="-fx-background-color: Silver;" text="Select JSFF File to parse" />
+            <Hyperlink fx:id="fileLink" disable="true" layoutX="223.0" layoutY="260.0" onMouseClicked="#generateHTMLReport" style="-fx-background-color: #D1F2EB#D1F2EB;" text="Download HTML Report" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
